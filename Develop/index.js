@@ -129,7 +129,7 @@ function init() {
     inquirer.prompt(questions)
     .then((answers) => {
         const readME = generateReadME(answers);
-        writeToFile('README.md', readME);
+        writeToFile('./dist/README.md', readME);
     })
     .catch((error) => {
         if(error.isTtyError) {
