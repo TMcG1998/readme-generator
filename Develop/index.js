@@ -86,7 +86,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'What license do you have for this application? (Required)',
-        choices: ['Drivers', 'Boating', 'Home improvement']
+        choices: ['MIT License', 'GNU General Public']
     },
     {
         type: 'input',

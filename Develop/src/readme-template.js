@@ -1,3 +1,19 @@
+const formatLicenseBadge = license => {
+    if(license == 'MIT License') {
+        return 'MIT';
+    } else {
+        return 'GNU';
+    }
+}
+
+const formatLicenseAbout = license => {
+    if(license == 'MIT License') {
+        return '[A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.](https://choosealicense.com/licenses/mit/)';
+    } else {
+        return '[Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.](https://choosealicense.com/licenses/gpl-3.0/)';
+    }
+}
+
 module.exports = templateData => {
     console.log(templateData);
 
@@ -6,6 +22,7 @@ module.exports = templateData => {
 
 return `
 # ${title}
+![badmath](https://img.shields.io/badge/license-${formatLicenseBadge(license)}-blue)
 
 ## Description
 
@@ -32,13 +49,7 @@ ${usage}
 
 ## License
 
-${license}
-
-## Badges
-    
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-    
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+${formatLicenseAbout(license)}
     
 ## How to Contribute
     
