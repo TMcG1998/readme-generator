@@ -1,1 +1,1 @@
-{"name":"Tommy"}
+{"title":"Tommy","description":"Is Tommy","installation":"Install him","usage":"Don't use him tho","contribution":"Contribute man","tests":"Test too","license":"Boating"}

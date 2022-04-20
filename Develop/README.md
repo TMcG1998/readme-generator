@@ -1,15 +1,9 @@
-module.exports = templateData => {
-    console.log(templateData);
 
-    const {title, description, installation, usage, 
-    contribution, tests, license, github, email} = templateData;
-
-return `
-# ${title}
+# prokject
 
 ## Description
 
-${description}
+descri[
 
 ## Table of Contents
 
@@ -21,15 +15,15 @@ Table of contents:
     
 ## Installation
 
-${installation}
+isntall
 
 ## Usage
 
-${usage}
+usage
 
 ## License
 
-${license}
+Drivers
 
 ## Badges
     
@@ -39,15 +33,13 @@ Badges aren't necessary, per se, but they demonstrate street cred. Badges let ot
     
 ## How to Contribute
     
-${contribution}
+aojgaga
     
 ## Tests
     
-${tests}
+test
 
 ## Questions
 
-Please reach out to me on GitHub: ${github}
-or email me at: ${email}
-`;
-}
+Please reach out to me on GitHub: asfads
+or email me at: asdggg
