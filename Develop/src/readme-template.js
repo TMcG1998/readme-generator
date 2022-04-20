@@ -18,6 +18,9 @@ Table of contents:
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
+- [How to Contribute](#how-to-contribute)
+- [Tests](#tests)
+- [Questions](#questions)
     
 ## Installation
 
@@ -47,7 +50,7 @@ ${tests}
 
 ## Questions
 
-Please reach out to me on GitHub: ${github}
+Please reach out to me on [GitHub](https://github.com/${github})
 or email me at: ${email}
 `;
 }

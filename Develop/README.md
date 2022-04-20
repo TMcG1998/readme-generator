@@ -1,9 +1,9 @@
 
-# prokject
+# Tommy Proj
 
 ## Description
 
-descri[
+This is the description
 
 ## Table of Contents
 
@@ -12,14 +12,17 @@ Table of contents:
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
+- [How to Contribute](#how-to-contribute)
+- [Tests](#tests)
+- [Questions](#questions)
     
 ## Installation
 
-isntall
+This is the installation
 
 ## Usage
 
-usage
+This is the usage
 
 ## License
 
@@ -33,13 +36,13 @@ Badges aren't necessary, per se, but they demonstrate street cred. Badges let ot
     
 ## How to Contribute
     
-aojgaga
+This is the contribution
     
 ## Tests
     
-test
+This is the test
 
 ## Questions
 
-Please reach out to me on GitHub: asfads
-or email me at: asdggg
+Please reach out to me on [GitHub](https://github.com/TMcG)
+or email me at: email.com
