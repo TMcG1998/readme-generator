@@ -1,19 +1,3 @@
-const formatLicenseBadge = license => {
-    if(license == 'MIT License') {
-        return 'MIT';
-    } else {
-        return 'GNU';
-    }
-}
-
-const formatLicenseAbout = license => {
-    if(license == 'MIT License') {
-        return '[A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.](https://choosealicense.com/licenses/mit/)';
-    } else {
-        return '[Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.](https://choosealicense.com/licenses/gpl-3.0/)';
-    }
-}
-
 module.exports = templateData => {
     console.log(templateData);
 
@@ -22,7 +6,7 @@ module.exports = templateData => {
 
 return `
 # ${title}
-![badmath](https://img.shields.io/badge/license-${formatLicenseBadge(license)}-blue)
+![badmath](https://img.shields.io/badge/license-${(license)}-blue)
 
 ## Description
 
@@ -49,7 +33,7 @@ ${usage}
 
 ## License
 
-${formatLicenseAbout(license)}
+This project is licensed under the ${license} license.
     
 ## How to Contribute
     

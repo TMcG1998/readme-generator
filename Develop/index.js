@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateReadME = require('./src/readme-template.js')
+const generateReadME = require('./utils/generateMarkdown.js')
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -86,7 +86,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'What license do you have for this application? (Required)',
-        choices: ['MIT License', 'GNU General Public']
+        choices: ['MIT', 'GPL 3.0', 'APACHE 2.0', 'None']
     },
     {
         type: 'input',
