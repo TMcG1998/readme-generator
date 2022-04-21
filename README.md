@@ -22,7 +22,7 @@
   
   The app accepts simple strings as answers. If an answer is empty, they will be prompted to enter that value again. After the README is created, it will appear in the 'dist' directory within the 'Develop' directory.
   
-  Video on the usage goes further in depth [here] (https://drive.google.com/file/d/1-u3m4oe5toxAMJUSfgwi2pL1LqCmCK8V/view)
+  Video on the usage goes further in depth [here](https://drive.google.com/file/d/1-u3m4oe5toxAMJUSfgwi2pL1LqCmCK8V/view)
   
   ## How to Contribute
       
